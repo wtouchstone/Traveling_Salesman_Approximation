@@ -4,6 +4,10 @@ nodes = list()
 edges = list()
 mst = list()
 
+
+# This code is not very good, well documented or complete. I used it as an experimentation playground 
+# mostly, so here it is to see my thought process in testing things to implement.
+
 class node():
     def __init__(self, num):
         self.num = num
